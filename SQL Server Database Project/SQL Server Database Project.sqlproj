@@ -64,5 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\LessonScripts\2_CreatingAlteringDroppingDatabase.sql" />
+    <None Include="Scripts\LessonScripts\55_ErrorHandlingWith%40%40Error.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\tblProduct.sql" />
+    <Build Include="Tables\tblProductSaleOperations.sql" />
+    <Build Include="Procedures\spSellProducts.sql" />
   </ItemGroup>
 </Project>
