@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{839ac124-61d4-4923-8124-37ecd270ab24}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -65,10 +65,23 @@
   <ItemGroup>
     <None Include="Scripts\LessonScripts\2_CreatingAlteringDroppingDatabase.sql" />
     <None Include="Scripts\LessonScripts\55_ErrorHandlingWith%40%40Error.sql" />
+    <None Include="Scripts\LessonScripts\56_ErrorHandlingTryCatchBlock.sql" />
+    <None Include="Scripts\LessonScripts\57_Transaction.sql" />
+    <None Include="Scripts\LessonScripts\58_TransactionACIDTest.sql" />
+    <None Include="Scripts\LessonScripts\59_Subqueries.sql" />
+    <None Include="Scripts\LessonScripts\60_CorrelatedSubquery.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
     <Build Include="Tables\tblProductSaleOperations.sql" />
     <Build Include="Procedures\spSellProducts.sql" />
+    <Build Include="Procedures\spSellProductsTryCatch.sql" />
+    <Build Include="Tables\tblMailingAddress.sql" />
+    <Build Include="Tables\tblPhysicalAddress.sql" />
+    <Build Include="Tables\tblProducts1.sql" />
+    <Build Include="Tables\tblProductSales1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Tables\SeedTablesScript.sql" />
   </ItemGroup>
 </Project>
