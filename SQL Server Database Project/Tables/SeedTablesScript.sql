@@ -24,3 +24,11 @@ insert into tblProductSales1 values (3, 400, 5);
 insert into tblProductSales1 values (2, 200, 7);
 insert into tblProductSales1 values (3, 350, 2);
 insert into tblProductSales1 values (3, 450, 4);
+
+insert into tblStudentSource values('Mike');
+insert into tblStudentSource values('Sara');
+insert into tblStudentDestination values('Mike M');
+insert into tblStudentDestination values('John');
+
+insert into Accounts values('Mark', 1000);
+insert into Accounts values('Mary', 1000);
