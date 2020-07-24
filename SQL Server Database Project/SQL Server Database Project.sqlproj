@@ -70,6 +70,7 @@
     <None Include="Scripts\LessonScripts\58_TransactionACIDTest.sql" />
     <None Include="Scripts\LessonScripts\59_Subqueries.sql" />
     <None Include="Scripts\LessonScripts\60_CorrelatedSubquery.sql" />
+    <None Include="Scripts\LessonScripts\61_CreatingLargeTablesWithTestData.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -80,6 +81,8 @@
     <Build Include="Tables\tblPhysicalAddress.sql" />
     <Build Include="Tables\tblProducts1.sql" />
     <Build Include="Tables\tblProductSales1.sql" />
+    <Build Include="Tables\tblProducts2.sql" />
+    <Build Include="Tables\tblProductSales2.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />

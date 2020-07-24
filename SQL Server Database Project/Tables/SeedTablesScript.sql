@@ -24,3 +24,32 @@ insert into tblProductSales1 values (3, 400, 5);
 insert into tblProductSales1 values (2, 200, 7);
 insert into tblProductSales1 values (3, 350, 2);
 insert into tblProductSales1 values (3, 450, 4);
+
+-- Recursive CTE table seed
+declare @MaxId int;
+set @MaxId = 1000000;
+WITH cte_Products as (
+ SELECT 1 as ID,'Product - ' + CAST((1) as nvarchar(20)) as Name,'Product - ' + CAST((1) as nvarchar(20)) + ' Description' as Description
+ UNION ALL
+ SELECT cte.ID + 1 as ID,'Product - ' + CAST((cte.ID + 1) as nvarchar(20)) as Name,'Product - ' + CAST((cte.ID + 1) as nvarchar(20)) + ' Description' as Description
+    FROM cte_Products cte WHERE cte.ID < @MaxId
+)
+Insert into tblProducts2 SELECT Name,Description FROM cte_Products OPTION (MAXRECURSION 0)
+
+-- Random values table seed
+declare @RandomUnitPrice int;
+declare @RandomQuantitySold int;
+declare @Id int;
+set @Id = 1;
+declare @MinValue int;
+set @MinValue = 1;
+declare @MaxValue int;
+set @MaxValue = 10;
+
+while ( @Id <= 500000 ) -- 50% of Products
+begin
+	select @RandomUnitPrice = ceiling(@MaxValue * Rand());
+	select @RandomQuantitySold = ceiling(@MaxValue * Rand());
+	insert into tblProductSales2 values(@Id, @RandomUnitPrice, @RandomQuantitySold);
+	set @Id = @Id + 1;
+end
