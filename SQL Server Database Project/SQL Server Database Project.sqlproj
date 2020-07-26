@@ -76,6 +76,8 @@
     <None Include="Scripts\LessonScripts\64_ReplacingCursorsUsingJoins.sql" />
     <None Include="Scripts\LessonScripts\65_ListAddTablesInDatabase.sql" />
     <None Include="Scripts\LessonScripts\66_reRunnableScripts.sql" />
+    <None Include="Scripts\LessonScripts\67_AlterTable.sql" />
+    <None Include="Scripts\LessonScripts\68_OptionalProcedureParameters.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -88,6 +90,7 @@
     <Build Include="Tables\tblProductSales1.sql" />
     <Build Include="Tables\tblProducts2.sql" />
     <Build Include="Tables\tblProductSales2.sql" />
+    <Build Include="Procedures\spSearchEmployees.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />
