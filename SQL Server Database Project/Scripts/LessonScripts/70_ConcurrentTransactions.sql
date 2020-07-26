@@ -1,4 +1,5 @@
-﻿begin try
+﻿--A Transaction is a group of commands that change the data  stored in database. A Transaction is threated as as single unit of work.
+begin try
 	begin transaction
 		update tblAccounts set Balance = Balance - 100 where Id = 1;
 		update tblAccounts set Balance = Balance - 100 where Id = 2;
