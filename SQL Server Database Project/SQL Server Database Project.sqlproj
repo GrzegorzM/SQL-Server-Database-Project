@@ -74,6 +74,8 @@
     <None Include="Scripts\LessonScripts\62_PerformanceTestingSubqueriesVsJoins.sql" />
     <None Include="Scripts\LessonScripts\63_Cursors.sql" />
     <None Include="Scripts\LessonScripts\64_ReplacingCursorsUsingJoins.sql" />
+    <None Include="Scripts\LessonScripts\65_ListAddTablesInDatabase.sql" />
+    <None Include="Scripts\LessonScripts\66_reRunnableScripts.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
