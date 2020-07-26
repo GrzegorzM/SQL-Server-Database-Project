@@ -53,3 +53,12 @@ begin
 	insert into tblProductSales2 values(@Id, @RandomUnitPrice, @RandomQuantitySold);
 	set @Id = @Id + 1;
 end
+insert into tblProductSales1 values (3, 450, 4);
+
+insert into tblStudentSource values('Mike');
+insert into tblStudentSource values('Sara');
+insert into tblStudentDestination values('Mike M');
+insert into tblStudentDestination values('John');
+
+insert into Accounts values('Mark', 1000);
+insert into Accounts values('Mary', 1000);

@@ -78,6 +78,8 @@
     <None Include="Scripts\LessonScripts\66_reRunnableScripts.sql" />
     <None Include="Scripts\LessonScripts\67_AlterTable.sql" />
     <None Include="Scripts\LessonScripts\68_OptionalProcedureParameters.sql" />
+    <None Include="Scripts\LessonScripts\69_Merge.sql" />
+    <None Include="Scripts\LessonScripts\70_ConcurrentTransactions.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -91,6 +93,9 @@
     <Build Include="Tables\tblProducts2.sql" />
     <Build Include="Tables\tblProductSales2.sql" />
     <Build Include="Procedures\spSearchEmployees.sql" />
+    <Build Include="Tables\tblStudentSource.sql" />
+    <Build Include="Tables\tblStudentDestination.sql" />
+    <Build Include="Tables\tblAccounts.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />
