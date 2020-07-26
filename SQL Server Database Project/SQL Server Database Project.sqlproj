@@ -71,6 +71,7 @@
     <None Include="Scripts\LessonScripts\59_Subqueries.sql" />
     <None Include="Scripts\LessonScripts\60_CorrelatedSubquery.sql" />
     <None Include="Scripts\LessonScripts\61_CreatingLargeTablesWithTestData.sql" />
+    <None Include="Scripts\LessonScripts\62_PerformanceTestingSubqueriesVsJoins.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
