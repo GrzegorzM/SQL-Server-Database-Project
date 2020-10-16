@@ -97,6 +97,7 @@
     <Build Include="Tables\tblStudentSource.sql" />
     <Build Include="Tables\tblStudentDestination.sql" />
     <Build Include="Tables\tblAccounts.sql" />
+    <Build Include="Tables\tblInventory.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />
