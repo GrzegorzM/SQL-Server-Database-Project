@@ -81,6 +81,7 @@
     <None Include="Scripts\LessonScripts\69_Merge.sql" />
     <None Include="Scripts\LessonScripts\70_ConcurrentTransactions.sql" />
     <None Include="Scripts\LessonScripts\71_TransactionDirtyRead.sql" />
+    <None Include="Scripts\LessonScripts\3_CreatingWorkingWithTables.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
