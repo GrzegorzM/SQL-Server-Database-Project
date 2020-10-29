@@ -1,4 +1,4 @@
-﻿Use [Sample]
+﻿Use [SampleDB]
 GO
 
 Create Table tblPerson(

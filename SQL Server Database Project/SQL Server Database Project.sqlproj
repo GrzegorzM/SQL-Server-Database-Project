@@ -82,6 +82,7 @@
     <None Include="Scripts\LessonScripts\70_ConcurrentTransactions.sql" />
     <None Include="Scripts\LessonScripts\71_TransactionDirtyRead.sql" />
     <None Include="Scripts\LessonScripts\3_CreatingWorkingWithTables.sql" />
+    <None Include="Scripts\LessonScripts\4_DefaultConstraint.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
