@@ -83,6 +83,7 @@
     <None Include="Scripts\LessonScripts\71_TransactionDirtyRead.sql" />
     <None Include="Scripts\LessonScripts\3_CreatingWorkingWithTables.sql" />
     <None Include="Scripts\LessonScripts\4_DefaultConstraint.sql" />
+    <None Include="Scripts\LessonScripts\5_CascadingIntegrityConstraint.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
