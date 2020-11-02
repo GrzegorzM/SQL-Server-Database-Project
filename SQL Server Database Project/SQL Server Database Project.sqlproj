@@ -86,6 +86,7 @@
     <None Include="Scripts\LessonScripts\5_CascadingIntegrityConstraint.sql" />
     <None Include="Scripts\LessonScripts\6_CheckConstraint.sql" />
     <None Include="Scripts\LessonScripts\0_TableCreation.sql" />
+    <None Include="Scripts\LessonScripts\7_IdentityColumn.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
