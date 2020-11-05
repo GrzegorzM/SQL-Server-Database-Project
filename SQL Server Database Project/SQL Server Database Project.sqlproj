@@ -88,6 +88,7 @@
     <None Include="Scripts\LessonScripts\0_TableCreation.sql" />
     <None Include="Scripts\LessonScripts\7_IdentityColumn.sql" />
     <None Include="Scripts\LessonScripts\8_RetrievingIdentityValue.sql" />
+    <None Include="Scripts\LessonScripts\9_UniqueConstraint.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
