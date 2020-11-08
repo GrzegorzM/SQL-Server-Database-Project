@@ -90,6 +90,7 @@
     <None Include="Scripts\LessonScripts\8_RetrievingIdentityValue.sql" />
     <None Include="Scripts\LessonScripts\9_UniqueConstraint.sql" />
     <None Include="Scripts\LessonScripts\10_SelectStatement.sql" />
+    <None Include="Scripts\LessonScripts\11_GroupBy.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
