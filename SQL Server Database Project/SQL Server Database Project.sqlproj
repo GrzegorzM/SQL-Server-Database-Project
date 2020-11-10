@@ -91,6 +91,7 @@
     <None Include="Scripts\LessonScripts\9_UniqueConstraint.sql" />
     <None Include="Scripts\LessonScripts\10_SelectStatement.sql" />
     <None Include="Scripts\LessonScripts\11_GroupBy.sql" />
+    <None Include="Scripts\LessonScripts\12_Joins.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -108,8 +109,15 @@
     <Build Include="Tables\tblStudentDestination.sql" />
     <Build Include="Tables\tblAccounts.sql" />
     <Build Include="Tables\tblInventory.sql" />
+    <Build Include="Tables\tblPerson.sql" />
+    <Build Include="Tables\tblGender.sql" />
+    <Build Include="Tables\tblDepartment.sql" />
+    <Build Include="Tables\tblEmployee.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="SQL Server Database Project.refactorlog" />
   </ItemGroup>
 </Project>
