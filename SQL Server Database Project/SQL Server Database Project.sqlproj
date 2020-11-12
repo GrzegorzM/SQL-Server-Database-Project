@@ -92,6 +92,7 @@
     <None Include="Scripts\LessonScripts\10_SelectStatement.sql" />
     <None Include="Scripts\LessonScripts\11_GroupBy.sql" />
     <None Include="Scripts\LessonScripts\12_Joins.sql" />
+    <None Include="Scripts\LessonScripts\14_SelfJoin.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -113,6 +114,8 @@
     <Build Include="Tables\tblGender.sql" />
     <Build Include="Tables\tblDepartment.sql" />
     <Build Include="Tables\tblEmployee.sql" />
+    <Build Include="Scripts\LessonScripts\13_AdvancedJoins.sql" />
+    <Build Include="Tables\tblEmployeeSelfJoin.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />

@@ -81,3 +81,13 @@ Insert into tblEmployee values (7, 'Sara', 'Female', 4800, 3);
 Insert into tblEmployee values (8, 'Valarie', 'Female', 5500, 1);
 Insert into tblEmployee values (9, 'James', 'Male', 6500, NULL);
 Insert into tblEmployee values (10, 'Russell', 'Male', 8800, NULL);
+
+Insert Into tblEmployeeSelfJoin values ('Tom', 'Josh');
+Insert Into tblEmployeeSelfJoin values ('Josh', NULL);
+Insert Into tblEmployeeSelfJoin values ('Mike', 'Josh');
+Insert Into tblEmployeeSelfJoin values ('John', 'Mike');
+Insert Into tblEmployeeSelfJoin values ('Pam', 'Tom');
+Insert Into tblEmployeeSelfJoin values ('Mary', 'Mike');
+Insert Into tblEmployeeSelfJoin values ('James', 'Tom');
+Insert Into tblEmployeeSelfJoin values ('Sam', 'Pam');
+Insert Into tblEmployeeSelfJoin values ('Simon', 'Tom');
