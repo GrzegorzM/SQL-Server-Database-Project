@@ -93,6 +93,7 @@
     <None Include="Scripts\LessonScripts\11_GroupBy.sql" />
     <None Include="Scripts\LessonScripts\12_Joins.sql" />
     <None Include="Scripts\LessonScripts\14_SelfJoin.sql" />
+    <None Include="Scripts\LessonScripts\15_ReplaceNullValue.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
