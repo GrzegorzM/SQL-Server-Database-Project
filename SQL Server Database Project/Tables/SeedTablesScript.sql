@@ -91,3 +91,9 @@ Insert Into tblEmployeeSelfJoin values ('Mary', 'Mike');
 Insert Into tblEmployeeSelfJoin values ('James', 'Tom');
 Insert Into tblEmployeeSelfJoin values ('Sam', 'Pam');
 Insert Into tblEmployeeSelfJoin values ('Simon', 'Tom');
+
+Insert Into tblEmployeeNames values ('Sam', NULL, NULL);
+Insert Into tblEmployeeNames values (NULL, 'Todd', 'Tanzan');
+Insert Into tblEmployeeNames values (NULL, NULL, 'Sara');
+Insert Into tblEmployeeNames values ('Ben', 'Parker', NULL);
+Insert Into tblEmployeeNames values ('James', 'Nick', 'Nancy');
