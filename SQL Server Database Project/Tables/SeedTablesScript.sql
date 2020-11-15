@@ -97,3 +97,9 @@ Insert Into tblEmployeeNames values (NULL, 'Todd', 'Tanzan');
 Insert Into tblEmployeeNames values (NULL, NULL, 'Sara');
 Insert Into tblEmployeeNames values ('Ben', 'Parker', NULL);
 Insert Into tblEmployeeNames values ('James', 'Nick', 'Nancy');
+
+Insert Into tblCustomersUK values ('Bob', 'bob@mail.com');
+Insert Into tblCustomersUK values ('Sara', 'sara@mail.com');
+
+Insert Into tblCustomersUSA values ('Kamala', 'kamala@mail.com');
+Insert Into tblCustomersUSA values ('Sara', 'sara@mail.com');

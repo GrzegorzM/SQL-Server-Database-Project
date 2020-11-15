@@ -95,6 +95,7 @@
     <None Include="Scripts\LessonScripts\14_SelfJoin.sql" />
     <None Include="Scripts\LessonScripts\15_ReplaceNullValue.sql" />
     <None Include="Scripts\LessonScripts\16_Coalesce.sql" />
+    <None Include="Scripts\LessonScripts\17_Unions.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -119,6 +120,8 @@
     <Build Include="Scripts\LessonScripts\13_AdvancedJoins.sql" />
     <Build Include="Tables\tblEmployeeSelfJoin.sql" />
     <Build Include="Tables\tblEmployeeNames.sql" />
+    <Build Include="Tables\tblCustomersUSA.sql" />
+    <Build Include="Tables\tblCustomersUK.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />

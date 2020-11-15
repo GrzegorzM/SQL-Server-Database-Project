@@ -13,3 +13,10 @@ Create Table tblGender(
 	Id int NOT NULL Primary Key,
 	Gender nvarchar(50) NOT NULL
 );
+
+--~~ Shotcuts ~~--
+
+-- 1. Execution Plan
+-- Ctrl + L
+
+-- 2.
