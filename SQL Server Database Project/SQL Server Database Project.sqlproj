@@ -96,6 +96,7 @@
     <None Include="Scripts\LessonScripts\15_ReplaceNullValue.sql" />
     <None Include="Scripts\LessonScripts\16_Coalesce.sql" />
     <None Include="Scripts\LessonScripts\17_Unions.sql" />
+    <None Include="Scripts\LessonScripts\18_StoredProcedures.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
