@@ -19,4 +19,5 @@ Create Table tblGender(
 -- 1. Execution Plan
 -- Ctrl + L
 
--- 2.
+-- 2. Information about tables, procedures like: object type, parameters, keys, indexes
+-- Alt + F1
