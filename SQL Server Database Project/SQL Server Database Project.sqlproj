@@ -99,6 +99,7 @@
     <None Include="Scripts\LessonScripts\18_StoredProcedures.sql" />
     <None Include="Scripts\LessonScripts\19_StoredProceduresOutputParameters.sql" />
     <None Include="Scripts\LessonScripts\20_StoredProceduresReturnValues.sql" />
+    <None Include="Scripts\LessonScripts\21_StoredProceduresAdvantages.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
