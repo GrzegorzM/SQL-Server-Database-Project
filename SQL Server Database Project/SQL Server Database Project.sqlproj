@@ -101,6 +101,7 @@
     <None Include="Scripts\LessonScripts\20_StoredProceduresReturnValues.sql" />
     <None Include="Scripts\LessonScripts\21_StoredProceduresAdvantages.sql" />
     <None Include="Scripts\LessonScripts\22_StringFunctions.sql" />
+    <None Include="Scripts\LessonScripts\23_StringFunctions_part2.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
