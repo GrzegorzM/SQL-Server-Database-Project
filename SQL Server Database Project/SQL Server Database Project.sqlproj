@@ -102,6 +102,8 @@
     <None Include="Scripts\LessonScripts\21_StoredProceduresAdvantages.sql" />
     <None Include="Scripts\LessonScripts\22_StringFunctions.sql" />
     <None Include="Scripts\LessonScripts\23_StringFunctions_part2.sql" />
+    <None Include="Scripts\LessonScripts\24_StringFunctions_part3.sql" />
+    <None Include="Scripts\LessonScripts\25_DateTimeFunctions.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -128,6 +130,7 @@
     <Build Include="Tables\tblEmployeeNames.sql" />
     <Build Include="Tables\tblCustomersUSA.sql" />
     <Build Include="Tables\tblCustomersUK.sql" />
+    <Build Include="Tables\tblDateTime.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />
