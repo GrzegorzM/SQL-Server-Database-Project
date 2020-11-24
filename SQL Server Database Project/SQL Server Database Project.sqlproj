@@ -104,6 +104,7 @@
     <None Include="Scripts\LessonScripts\23_StringFunctions_part2.sql" />
     <None Include="Scripts\LessonScripts\24_StringFunctions_part3.sql" />
     <None Include="Scripts\LessonScripts\25_DateTimeFunctions.sql" />
+    <None Include="Scripts\LessonScripts\26_DateTimeFunctions_part2.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />

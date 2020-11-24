@@ -71,16 +71,16 @@ Insert into tblDepartment values (2, 'Payroll', 'Delhi', 'Ron');
 Insert into tblDepartment values (3, 'HR', 'New York', 'Christie');
 Insert into tblDepartment values (4, 'Other Department', 'Sydney', 'Cindrella');
 
-Insert into tblEmployee values (1, 'Tom', 'Male', 4000, 1);
-Insert into tblEmployee values (2, 'Pam', 'Female', 3000, 3);
-Insert into tblEmployee values (3, 'John', 'Male', 3500, 1);
-Insert into tblEmployee values (4, 'Sam', 'Male', 4500, 2);
-Insert into tblEmployee values (5, 'Todd', 'Male', 2800, 2);
-Insert into tblEmployee values (6, 'Ben', 'Male', 7000, 1);
-Insert into tblEmployee values (7, 'Sara', 'Female', 4800, 3);
-Insert into tblEmployee values (8, 'Valarie', 'Female', 5500, 1);
-Insert into tblEmployee values (9, 'James', 'Male', 6500, NULL);
-Insert into tblEmployee values (10, 'Russell', 'Male', 8800, NULL);
+Insert into tblEmployee values (1, 'Tom', 'Male', 4000, 1, GetDate());
+Insert into tblEmployee values (2, 'Pam', 'Female', 3000, 3, GetDate());
+Insert into tblEmployee values (3, 'John', 'Male', 3500, 1, NULL);
+Insert into tblEmployee values (4, 'Sam', 'Male', 4500, 2, NULL);
+Insert into tblEmployee values (5, 'Todd', 'Male', 2800, 2, NULL);
+Insert into tblEmployee values (6, 'Ben', 'Male', 7000, 1, NULL);
+Insert into tblEmployee values (7, 'Sara', 'Female', 4800, 3, NULL);
+Insert into tblEmployee values (8, 'Valarie', 'Female', 5500, 1, NULL);
+Insert into tblEmployee values (9, 'James', 'Male', 6500, NULL, NULL);
+Insert into tblEmployee values (10, 'Russell', 'Male', 8800, NULL, NULL);
 
 Insert Into tblEmployeeSelfJoin values ('Tom', 'Josh');
 Insert Into tblEmployeeSelfJoin values ('Josh', NULL);
