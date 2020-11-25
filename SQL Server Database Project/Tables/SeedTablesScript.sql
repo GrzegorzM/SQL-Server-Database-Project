@@ -104,4 +104,5 @@ Insert Into tblCustomersUK values ('Sara', 'sara@mail.com');
 Insert Into tblCustomersUSA values ('Kamala', 'kamala@mail.com');
 Insert Into tblCustomersUSA values ('Sara', 'sara@mail.com');
 
+
 INSERT INTO tblDateTime VALUES (GETDATE(),GETDATE(),GETDATE(),GETDATE(),GETDATE(),GETDATE());
