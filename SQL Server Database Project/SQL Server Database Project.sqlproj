@@ -107,6 +107,7 @@
     <None Include="Scripts\LessonScripts\25_DateTimeFunctions.sql" />
     <None Include="Scripts\LessonScripts\26_DateTimeFunctions_part2.sql" />
     <None Include="Scripts\LessonScripts\27_DateTimeFunctions_part3.sql" />
+    <None Include="Scripts\LessonScripts\28_CastConvert.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -135,6 +136,7 @@
     <Build Include="Tables\tblCustomersUK.sql" />
     <Build Include="Tables\tblDateTime.sql" />
     <Build Include="Functions\fnComputeAge.sql" />
+    <Build Include="Tables\tblRegistrations.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />
