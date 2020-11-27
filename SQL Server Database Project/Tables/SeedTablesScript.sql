@@ -107,8 +107,8 @@ Insert Into tblCustomersUSA values ('Sara', 'sara@mail.com');
 
 INSERT INTO tblDateTime VALUES (GETDATE(),GETDATE(),GETDATE(),GETDATE(),GETDATE(),GETDATE());
 
-Insert Into tblRegistrations Values ('John', 'john@j.com' , '2020-02-11 22:12:53.340');
-Insert Into tblRegistrations Values ('Sam', 'sam@mail.com' , '2020-02-11 22:12:53.340');
-Insert Into tblRegistrations Values ('Todd', 'todd@mail.com' , '2020-02-11 22:12:53.340');
-Insert Into tblRegistrations Values ('Mary', 'mary@mail.com' , '2020-02-11 22:12:53.340');
-Insert Into tblRegistrations Values ('Mike', 'mike@mail.com' , '2020-02-11 22:12:53.340');
+Insert Into tblRegistrations Values ('John', 'john@j.com' , '2020-02-01 22:06:15.173');
+Insert Into tblRegistrations Values ('Sam', 'sam@mail.com' , '2020-02-01 02:02:23.228');
+Insert Into tblRegistrations Values ('Todd', 'todd@mail.com' , '2020-04-11 07:32:58.346');
+Insert Into tblRegistrations Values ('Mary', 'mary@mail.com' , '2020-04-11 12:12:03.030');
+Insert Into tblRegistrations Values ('Mike', 'mike@mail.com' , '2020-02-01 04:15:55.441');
