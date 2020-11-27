@@ -108,6 +108,7 @@
     <None Include="Scripts\LessonScripts\26_DateTimeFunctions_part2.sql" />
     <None Include="Scripts\LessonScripts\27_DateTimeFunctions_part3.sql" />
     <None Include="Scripts\LessonScripts\28_CastConvert.sql" />
+    <None Include="Scripts\LessonScripts\29_MathematicalFunctions.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
