@@ -110,6 +110,7 @@
     <None Include="Scripts\LessonScripts\28_CastConvert.sql" />
     <None Include="Scripts\LessonScripts\29_MathematicalFunctions.sql" />
     <None Include="Scripts\LessonScripts\30_ScalarUserDefinedFunctions.sql" />
+    <None Include="Scripts\LessonScripts\31_InlineTableValueFunctions.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />

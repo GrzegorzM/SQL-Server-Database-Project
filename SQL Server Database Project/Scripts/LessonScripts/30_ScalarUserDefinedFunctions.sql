@@ -1,4 +1,5 @@
-﻿Create Function fnCalculateAge(@DateOfBirth DATE) RETURNS INT
+﻿-- returns a scalar value(single value)
+Create Function fnCalculateAge(@DateOfBirth DATE) RETURNS INT
 AS BEGIN
 	DECLARE @Age INT;
 
