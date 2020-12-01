@@ -111,6 +111,7 @@
     <None Include="Scripts\LessonScripts\29_MathematicalFunctions.sql" />
     <None Include="Scripts\LessonScripts\30_ScalarUserDefinedFunctions.sql" />
     <None Include="Scripts\LessonScripts\31_InlineTableValueFunctions.sql" />
+    <None Include="Scripts\LessonScripts\32_MultiStatementTableValuedFunctions.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
