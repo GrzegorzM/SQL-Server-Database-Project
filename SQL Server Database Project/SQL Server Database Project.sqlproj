@@ -113,6 +113,7 @@
     <None Include="Scripts\LessonScripts\31_InlineTableValueFunctions.sql" />
     <None Include="Scripts\LessonScripts\32_MultiStatementTableValuedFunctions.sql" />
     <None Include="Scripts\LessonScripts\33_ImportantConceptsFunctions.sql" />
+    <None Include="Scripts\LessonScripts\34_TemporaryTables.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
