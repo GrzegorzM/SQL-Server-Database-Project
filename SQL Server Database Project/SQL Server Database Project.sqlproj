@@ -119,6 +119,7 @@
     <None Include="Scripts\LessonScripts\37_UniqueNonuniqueIndexes.sql" />
     <None Include="Scripts\LessonScripts\38_IndexesAdvantages.sql" />
     <None Include="Scripts\LessonScripts\39_Views.sql" />
+    <None Include="Scripts\LessonScripts\40_UpdatableViews.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
