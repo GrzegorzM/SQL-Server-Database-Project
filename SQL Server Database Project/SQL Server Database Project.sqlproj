@@ -122,8 +122,8 @@
     <None Include="Scripts\LessonScripts\40_UpdatableViews.sql" />
     <None Include="Scripts\LessonScripts\41_IndexedViews.sql" />
     <None Include="Scripts\LessonScripts\42_ViewsLimitations.sql" />
-    <None Include="Scripts\LessonScripts\43_TriggersDML_ForInsert.sql" />
-    <None Include="Scripts\LessonScripts\44_TriggersDLM_AfterUpdate.sql" />
+    <None Include="Scripts\LessonScripts\43_TriggersDML_ForInsertDelete.sql" />
+    <None Include="Scripts\LessonScripts\44_TriggersDLM_ForUpdate.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
