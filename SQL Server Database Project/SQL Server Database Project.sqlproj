@@ -129,6 +129,7 @@
     <None Include="Scripts\LessonScripts\47_TriggersDML_InsteadOfDelete.sql" />
     <None Include="Scripts\LessonScripts\48_TableExpressionsUsingDifferentApproach.sql" />
     <None Include="Scripts\LessonScripts\49_CTE.sql" />
+    <None Include="Scripts\LessonScripts\50_UpdatableCTE.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
