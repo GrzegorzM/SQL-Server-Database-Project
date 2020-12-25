@@ -132,6 +132,7 @@
     <None Include="Scripts\LessonScripts\50_UpdatableCTE.sql" />
     <None Include="Scripts\LessonScripts\51_RecursiveCTE.sql" />
     <None Include="Scripts\LessonScripts\52_FirstNormalForm_1NF.sql" />
+    <None Include="Scripts\LessonScripts\53_2NF,3NF.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
