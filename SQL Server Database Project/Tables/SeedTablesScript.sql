@@ -112,3 +112,24 @@ Insert Into tblRegistrations Values ('Sam', 'sam@mail.com' , '2020-02-01 02:02:2
 Insert Into tblRegistrations Values ('Todd', 'todd@mail.com' , '2020-04-11 07:32:58.346');
 Insert Into tblRegistrations Values ('Mary', 'mary@mail.com' , '2020-04-11 12:12:03.030');
 Insert Into tblRegistrations Values ('Mike', 'mike@mail.com' , '2020-02-01 04:15:55.441');
+
+Insert into tblProductSales values('Tom', 'UK', 200)
+Insert into tblProductSales values('John', 'USA', 180)
+Insert into tblProductSales values('John', 'UK', 260)
+Insert into tblProductSales values('David', 'Germany', 450)
+Insert into tblProductSales values('Tom', 'France', 350)
+Insert into tblProductSales values('David', 'USA', 200)
+Insert into tblProductSales values('Tom', 'USA', 130)
+Insert into tblProductSales values('John', 'France', 540)
+Insert into tblProductSales values('John', 'UK', 120)
+Insert into tblProductSales values('David', 'UK', 220)
+Insert into tblProductSales values('John', 'UK', 420)
+Insert into tblProductSales values('David', 'USA', 320)
+Insert into tblProductSales values('Tom', 'USA', 340)
+Insert into tblProductSales values('Tom', 'UK', 660)
+Insert into tblProductSales values('John', 'Germany', 430)
+Insert into tblProductSales values('David', 'France', 230)
+Insert into tblProductSales values('David', 'Germany', 280)
+Insert into tblProductSales values('Tom', 'UK', 480)
+Insert into tblProductSales values('John', 'USA', 360)
+Insert into tblProductSales values('David', 'UK', 140)
