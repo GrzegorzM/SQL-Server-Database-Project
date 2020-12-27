@@ -133,3 +133,9 @@ Insert into tblProductSales values('David', 'Germany', 280)
 Insert into tblProductSales values('Tom', 'UK', 480)
 Insert into tblProductSales values('John', 'USA', 360)
 Insert into tblProductSales values('David', 'UK', 140)
+
+Insert into tblSales values ('iPhone', 500);
+Insert into tblSales values ('Laptop', 800);
+Insert into tblSales values ('iPhone', 1000);
+Insert into tblSales values ('Speakers', 400);
+Insert into tblSales values ('Laptop', 600);

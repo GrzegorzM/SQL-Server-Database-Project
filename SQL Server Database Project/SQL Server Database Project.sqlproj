@@ -134,6 +134,7 @@
     <None Include="Scripts\LessonScripts\52_FirstNormalForm_1NF.sql" />
     <None Include="Scripts\LessonScripts\53_2NF,3NF.sql" />
     <None Include="Scripts\LessonScripts\54_Pivot.sql" />
+    <None Include="Scripts\LessonScripts\98_HavingWhereDifference.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -164,6 +165,7 @@
     <Build Include="Functions\fnComputeAge.sql" />
     <Build Include="Tables\tblRegistrations.sql" />
     <Build Include="Tables\tblProductSales.sql" />
+    <Build Include="Tables\tblSales.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />
