@@ -135,6 +135,7 @@
     <None Include="Scripts\LessonScripts\53_2NF,3NF.sql" />
     <None Include="Scripts\LessonScripts\54_Pivot.sql" />
     <None Include="Scripts\LessonScripts\98_HavingWhereDifference.sql" />
+    <None Include="Scripts\LessonScripts\97_SelectInto.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
