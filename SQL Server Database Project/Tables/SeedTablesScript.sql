@@ -139,3 +139,15 @@ Insert into tblSales values ('Laptop', 800);
 Insert into tblSales values ('iPhone', 1000);
 Insert into tblSales values ('Speakers', 400);
 Insert into tblSales values ('Laptop', 600);
+
+Insert into tblPersonA values ('Mark', 'Male');
+Insert into tblPersonA values ('Mary', 'Female');
+Insert into tblPersonA values ('Steve', 'Male');
+Insert into tblPersonA values ('John', 'Male');
+Insert into tblPersonA values ('Sara', 'Female');
+
+Insert into tblPersonB values ('John', 'Male');
+Insert into tblPersonB values ('Sara', 'Female');
+Insert into tblPersonB values ('Pam', 'Female');
+Insert into tblPersonB values ('Rebeka', 'Female');
+Insert into tblPersonB values ('Jordan', 'Male');
