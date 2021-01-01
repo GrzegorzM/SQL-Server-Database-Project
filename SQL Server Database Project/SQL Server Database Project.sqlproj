@@ -139,6 +139,7 @@
     <None Include="Scripts\LessonScripts\87_Except.sql" />
     <None Include="Scripts\LessonScripts\88_ExceptNotDifference.sql" />
     <None Include="Scripts\LessonScripts\89_Intersect.sql" />
+    <None Include="Scripts\LessonScripts\90_UnionIntersectExceptDifferences.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
