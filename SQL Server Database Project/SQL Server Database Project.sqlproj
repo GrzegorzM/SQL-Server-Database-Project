@@ -140,6 +140,7 @@
     <None Include="Scripts\LessonScripts\88_ExceptNotDifference.sql" />
     <None Include="Scripts\LessonScripts\89_Intersect.sql" />
     <None Include="Scripts\LessonScripts\90_UnionIntersectExceptDifferences.sql" />
+    <None Include="Scripts\LessonScripts\91_CrossOuterApply.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
