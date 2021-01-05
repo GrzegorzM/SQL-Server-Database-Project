@@ -143,6 +143,7 @@
     <None Include="Scripts\LessonScripts\91_CrossOuterApply.sql" />
     <None Include="Scripts\LessonScripts\92_TriggersDDL.sql" />
     <None Include="Scripts\LessonScripts\93_TriggersDDL_ServerScoped.sql" />
+    <None Include="Scripts\LessonScripts\94_TriggersExecutionOrder.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
