@@ -143,8 +143,9 @@
     <None Include="Scripts\LessonScripts\91_CrossOuterApply.sql" />
     <None Include="Scripts\LessonScripts\92_TriggersDDL.sql" />
     <None Include="Scripts\LessonScripts\93_TriggersDDL_ServerScoped.sql" />
-    <None Include="Scripts\LessonScripts\94_TriggersExecutionOrder.sql" />
-    <None Include="Scripts\LessonScripts\95_TriggersDDLAudit.sql" />
+    <None Include="Scripts\LessonScripts\94_TriggersDDL_ExecutionOrder.sql" />
+    <None Include="Scripts\LessonScripts\95_TriggersDDL_Audit.sql" />
+    <None Include="Scripts\LessonScripts\96_TriggersDDL_Logon.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
