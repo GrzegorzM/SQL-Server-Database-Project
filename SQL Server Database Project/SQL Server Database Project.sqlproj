@@ -146,6 +146,7 @@
     <None Include="Scripts\LessonScripts\94_TriggersDDL_ExecutionOrder.sql" />
     <None Include="Scripts\LessonScripts\95_TriggersDDL_Audit.sql" />
     <None Include="Scripts\LessonScripts\96_TriggersDDL_Logon.sql" />
+    <None Include="Scripts\LessonScripts\99_TableValueParameters.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
