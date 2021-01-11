@@ -1,10 +1,11 @@
-﻿CREATE TYPE EmployeeTableType AS TABLE
+﻿SELECT * FROM tblEmployee;
+CREATE TYPE EmployeeTableType AS TABLE
 (
   Id INT PRIMARY KEY IDENTITY(1, 1),
   Name NVARCHAR(50) NOT NULL,
   Gender NVARCHAR(10) NOT NULL,
-	DeptID INT,
-	EMAIL NVARCHAR(50),
+	DeptId INT,
+	Email NVARCHAR(50),
 	DateOfBirth DATETIME,
 	Salary INT
 );
@@ -12,11 +13,11 @@ DROP TYPE EmployeeTableType;
 DROP PROCEDURE spInsertEmployees;
 
 CREATE PROCEDURE spInsertEmployees
-  @EmployeeTableType EmployeeTableType READONLY
+  @EmployeeTableType EmployeeTableType READONLY -- READONLY is required. Readonly means that DML operations such as insert, update, and delete cannot be performed.
 AS
 BEGIN
     INSERT INTO tblEmployee
-    SELECT Name, Gender, DeptID, EMAIL, DateOfBirth, Salary FROM @EmployeeTableType
+    SELECT Name, Gender, DeptId, Email, DateOfBirth, Salary FROM @EmployeeTableType
 END;
 
 DECLARE @EmployeeTableType EmployeeTableType;
