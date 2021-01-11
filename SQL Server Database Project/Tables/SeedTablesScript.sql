@@ -151,3 +151,14 @@ Insert into tblPersonB values ('Sara', 'Female');
 Insert into tblPersonB values ('Pam', 'Female');
 Insert into tblPersonB values ('Rebeka', 'Female');
 Insert into tblPersonB values ('Jordan', 'Male');
+
+Insert Into tblEmployeeCountries Values ('Mark', 'Male', 5000, 'USA');
+Insert Into tblEmployeeCountries Values ('John', 'Male', 4500, 'GERMANY');
+Insert Into tblEmployeeCountries Values ('Pam', 'Female', 5500, 'USA');
+Insert Into tblEmployeeCountries Values ('Sara', 'Female', 4000, 'GERMANY');
+Insert Into tblEmployeeCountries Values ('Todd', 'Male', 3500, 'GERMANY');
+Insert Into tblEmployeeCountries Values ('Mary', 'Female', 5000, 'UK');
+Insert Into tblEmployeeCountries Values ('Ben', 'Male', 6500, 'UK');
+Insert Into tblEmployeeCountries Values ('Elizabeth', 'Female', 7000, 'USA');
+Insert Into tblEmployeeCountries Values ('Tom', 'Male', 5500, 'UK');
+Insert Into tblEmployeeCountries Values ('Ron', 'Male', 5000, 'USA');

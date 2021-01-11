@@ -148,6 +148,7 @@
     <None Include="Scripts\LessonScripts\96_TriggersDDL_Logon.sql" />
     <None Include="Scripts\LessonScripts\99_TableValueParameters.sql" />
     <None Include="Scripts\LessonScripts\72_Transaction_LostUpdate.sql" />
+    <None Include="Scripts\LessonScripts\101_GroupingSets.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -181,6 +182,7 @@
     <Build Include="Tables\tblSales.sql" />
     <Build Include="Tables\tblPersonA.sql" />
     <Build Include="Tables\tblPersonB.sql" />
+    <Build Include="Tables\tblEmployeeCountries.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />
