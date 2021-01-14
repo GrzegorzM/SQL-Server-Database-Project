@@ -150,6 +150,7 @@
     <None Include="Scripts\LessonScripts\72_Transaction_LostUpdate.sql" />
     <None Include="Scripts\LessonScripts\101_GroupingSets.sql" />
     <None Include="Scripts\LessonScripts\102_Rollup.sql" />
+    <None Include="Scripts\LessonScripts\103_Cube.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
