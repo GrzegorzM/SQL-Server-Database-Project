@@ -5,13 +5,13 @@ GROUP BY ROLLUP(Country);
 SELECT Country, SUM(Salary) AS TotalSalary FROM tblEmployeeCountries
 GROUP BY Country WITH ROLLUP;
 
--- We can also use UNION ALL operator along with GROUP BY
+-- Using UNION ALL operator along with GROUP BY
 SELECT Country, SUM(Salary) AS TotalSalary FROM tblEmployeeCountries
 GROUP BY Country
 UNION ALL
 SELECT NULL, SUM(Salary) AS TotalSalary FROM tblEmployeeCountries;
 
--- We can also use Grouping Sets to achieve the same result
+-- Using Grouping Sets to achieve the same result
 SELECT Country, SUM(Salary) AS TotalSalary FROM tblEmployeeCountries
 GROUP BY GROUPING SETS
 (
