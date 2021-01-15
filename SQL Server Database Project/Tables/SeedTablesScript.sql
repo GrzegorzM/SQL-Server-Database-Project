@@ -162,3 +162,12 @@ Insert Into tblEmployeeCountries Values ('Ben', 'Male', 6500, 'UK');
 Insert Into tblEmployeeCountries Values ('Elizabeth', 'Female', 7000, 'USA');
 Insert Into tblEmployeeCountries Values ('Tom', 'Male', 5500, 'UK');
 Insert Into tblEmployeeCountries Values ('Ron', 'Male', 5000, 'USA');
+
+Insert into tblCountrySales values('Asia','India','Bangalore',1000);
+Insert into tblCountrySales values('Asia','India','Chennai',2000);
+Insert into tblCountrySales values('Asia','Japan','Tokyo',4000);
+Insert into tblCountrySales values('Asia','Japan','Hiroshima',5000);
+Insert into tblCountrySales values('Europe','United Kingdom','London',1000);
+Insert into tblCountrySales values('Europe','United Kingdom','Manchester',2000);
+Insert into tblCountrySales values('Europe','France','Paris',4000);
+Insert into tblCountrySales values('Europe','France','Cannes',5000);

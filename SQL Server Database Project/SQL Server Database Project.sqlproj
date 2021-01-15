@@ -151,6 +151,7 @@
     <None Include="Scripts\LessonScripts\101_GroupingSets.sql" />
     <None Include="Scripts\LessonScripts\102_Rollup.sql" />
     <None Include="Scripts\LessonScripts\103_Cube.sql" />
+    <None Include="Scripts\LessonScripts\104_CubeRollupDifferences.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -185,6 +186,7 @@
     <Build Include="Tables\tblPersonA.sql" />
     <Build Include="Tables\tblPersonB.sql" />
     <Build Include="Tables\tblEmployeeCountries.sql" />
+    <Build Include="Tables\tblCountrySales.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />
