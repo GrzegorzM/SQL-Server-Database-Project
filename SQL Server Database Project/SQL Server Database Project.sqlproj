@@ -152,6 +152,7 @@
     <None Include="Scripts\LessonScripts\102_Rollup.sql" />
     <None Include="Scripts\LessonScripts\103_Cube.sql" />
     <None Include="Scripts\LessonScripts\104_CubeRollupDifferences.sql" />
+    <None Include="Scripts\LessonScripts\105_GroupingFunction.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
