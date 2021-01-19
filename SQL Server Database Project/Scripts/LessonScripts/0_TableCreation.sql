@@ -21,3 +21,9 @@ Create Table tblGender(
 
 -- 2. Information about tables, procedures like: object type, parameters, keys, indexes
 -- Alt + F1
+
+-- 3. UpperCase
+-- CTRL+SHIFT+U
+
+-- 4. LowerCase
+-- CTRL+SHIFT+L
