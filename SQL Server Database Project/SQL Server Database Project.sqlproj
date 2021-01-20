@@ -155,6 +155,7 @@
     <None Include="Scripts\LessonScripts\105_GroupingFunction.sql" />
     <None Include="Scripts\LessonScripts\106_GroupingId.sql" />
     <None Include="Scripts\LessonScripts\107_DebuggingProcedure.sql" />
+    <None Include="Scripts\LessonScripts\108_OverClause.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
