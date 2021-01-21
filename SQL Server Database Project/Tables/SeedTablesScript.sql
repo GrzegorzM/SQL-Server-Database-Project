@@ -171,3 +171,12 @@ Insert into tblCountrySales values('Europe','United Kingdom','London',1000);
 Insert into tblCountrySales values('Europe','United Kingdom','Manchester',2000);
 Insert into tblCountrySales values('Europe','France','Paris',4000);
 Insert into tblCountrySales values('Europe','France','Cannes',5000);
+
+Insert into tblEmployeeDuplicates values(1, 'Mark', 'Hastings', 'Male', 60000);
+Insert into tblEmployeeDuplicates values(1, 'Mark', 'Hastings', 'Male', 60000);
+Insert into tblEmployeeDuplicates values(1, 'Mark', 'Hastings', 'Male', 60000);
+Insert into tblEmployeeDuplicates values(2, 'Mary', 'Lambeth', 'Female', 30000);
+Insert into tblEmployeeDuplicates values(2, 'Mary', 'Lambeth', 'Female', 30000);
+Insert into tblEmployeeDuplicates values(3, 'Ben', 'Hoskins', 'Male', 70000);
+Insert into tblEmployeeDuplicates values(3, 'Ben', 'Hoskins', 'Male', 70000);
+Insert into tblEmployeeDuplicates values(3, 'Ben', 'Hoskins', 'Male', 70000);

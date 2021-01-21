@@ -156,6 +156,7 @@
     <None Include="Scripts\LessonScripts\106_GroupingId.sql" />
     <None Include="Scripts\LessonScripts\107_DebuggingProcedure.sql" />
     <None Include="Scripts\LessonScripts\108_OverClause.sql" />
+    <None Include="Scripts\LessonScripts\109_RowNumber.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -191,6 +192,7 @@
     <Build Include="Tables\tblPersonB.sql" />
     <Build Include="Tables\tblEmployeeCountries.sql" />
     <Build Include="Tables\tblCountrySales.sql" />
+    <Build Include="Tables\tblEmployeeDuplicates.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />
