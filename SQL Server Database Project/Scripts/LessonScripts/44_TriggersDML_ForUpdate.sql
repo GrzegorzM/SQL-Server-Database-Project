@@ -28,16 +28,17 @@ AS BEGIN
 		IF(@OldName <> @NewName)
 			SET @AuditString = @AuditString + ' Name from ' + @OldName + ' to ' + @NewName;
 		IF(@OldGender <> @NewGender)
-			SET @AuditString = @AuditString + ' Name from ' + @OldGender + ' to ' + @NewGender;
+			SET @AuditString = @AuditString + ' Gender from ' + @OldGender + ' to ' + @NewGender;
 		IF(@OldSalary <> @NewSalary)
-			SET @AuditString = @AuditString + ' Name from ' + @OldSalary + ' to ' + @NewSalary;
+			SET @AuditString = @AuditString + ' Salary from ' + CAST(@OldSalary as nvarchar(10)) + ' to ' + CAST(@NewSalary as nvarchar(10));
 		IF(@OldDeptId <> @NewDeptId)
-			SET @AuditString = @AuditString + ' Name from ' + @OldDeptId + ' to ' + @NewDeptId;
+			SET @AuditString = @AuditString + ' DeptId from ' + CAST(@OldDeptId as nvarchar(10)) + ' to ' + CAST(@NewDeptId as nvarchar(10));
 
 		INSERT INTO tblEmployeeAudit VALUES(@AuditString);
 		DELETE FROM #TempTable WHERE ID = @Id;
 	END;
 END;
 
+UPDATE tblEmployee SET Salary = 4000 WHERE Id IN(5, 6); -- Does not work when updating multiple rows.
 UPDATE tblEmployee SET Name = 'Sara' Where Name = 'Sarah';
 Select * from tblEmployeeAudit;
