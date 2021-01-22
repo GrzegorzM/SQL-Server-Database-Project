@@ -13,10 +13,18 @@ INNER JOIN
 FROM tblEmployee GROUP BY Gender) AS Genders 
 ON E.Gender = Genders.Gender;
 
--- Using Over Clause
+-- Using Over Clause.
 SELECT NAME, SALARY, Gender, 
 	COUNT(Id) OVER(PARTITION BY Gender) AS GenderTotal, 
 	AVG(Salary) OVER(PARTITION BY Gender) AS AvgSalary, 
 	MIN(Salary) OVER(PARTITION BY Gender) AS MinSalary, 
+	MAX(Salary) OVER(PARTITION BY Gender) AS MaxSalary
+FROM tblEmployee;
+
+-- Using Over Clause with no partition is a valid syntax.
+SELECT NAME, SALARY, Gender, 
+	COUNT(Id) OVER() AS GenderTotal,
+	AVG(Salary) OVER() AS AvgSalary, -- Returns the average salary across all records.
+	MIN(Salary) OVER(PARTITION BY Gender) AS MinSalary, -- It returns the minimum salary by gender(Calculated separately for male and female).
 	MAX(Salary) OVER(PARTITION BY Gender) AS MaxSalary
 FROM tblEmployee;
