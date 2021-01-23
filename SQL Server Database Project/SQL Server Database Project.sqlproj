@@ -158,6 +158,7 @@
     <None Include="Scripts\LessonScripts\108_OverClause.sql" />
     <None Include="Scripts\LessonScripts\109_RowNumber.sql" />
     <None Include="Scripts\LessonScripts\110_RankDenseRank.sql" />
+    <None Include="Scripts\LessonScripts\111_RankDenseRankRowNumberDifferences.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
