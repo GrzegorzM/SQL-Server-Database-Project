@@ -161,6 +161,7 @@
     <None Include="Scripts\LessonScripts\111_RankDenseRankRowNumberDifferences.sql" />
     <None Include="Scripts\LessonScripts\112_CalculateRunningTotal.sql" />
     <None Include="Scripts\LessonScripts\113_Ntile.sql" />
+    <None Include="Scripts\LessonScripts\114_LeadLag.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
