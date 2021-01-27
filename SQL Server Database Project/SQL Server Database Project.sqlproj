@@ -162,6 +162,7 @@
     <None Include="Scripts\LessonScripts\112_CalculateRunningTotal.sql" />
     <None Include="Scripts\LessonScripts\113_Ntile.sql" />
     <None Include="Scripts\LessonScripts\114_LeadLag.sql" />
+    <None Include="Scripts\LessonScripts\115_FirstValue.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
