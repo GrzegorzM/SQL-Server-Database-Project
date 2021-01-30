@@ -164,6 +164,7 @@
     <None Include="Scripts\LessonScripts\114_LeadLag.sql" />
     <None Include="Scripts\LessonScripts\115_FirstValue.sql" />
     <None Include="Scripts\LessonScripts\116_WindowFunctions.sql" />
+    <None Include="Scripts\LessonScripts\122_IIF.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
