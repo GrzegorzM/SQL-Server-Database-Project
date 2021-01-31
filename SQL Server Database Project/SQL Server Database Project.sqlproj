@@ -166,6 +166,7 @@
     <None Include="Scripts\LessonScripts\116_WindowFunctions.sql" />
     <None Include="Scripts\LessonScripts\122_IIF.sql" />
     <None Include="Scripts\LessonScripts\117_RowsRangeDifferences.sql" />
+    <None Include="Scripts\LessonScripts\118_LastValue.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
