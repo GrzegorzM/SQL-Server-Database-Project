@@ -168,6 +168,7 @@
     <None Include="Scripts\LessonScripts\117_RowsRangeDifferences.sql" />
     <None Include="Scripts\LessonScripts\118_LastValue.sql" />
     <None Include="Scripts\LessonScripts\119_Unpivot.sql" />
+    <None Include="Scripts\LessonScripts\120_ReversePivot.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
