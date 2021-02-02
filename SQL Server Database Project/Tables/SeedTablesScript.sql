@@ -180,3 +180,6 @@ Insert into tblEmployeeDuplicates values(2, 'Mary', 'Lambeth', 'Female', 30000);
 Insert into tblEmployeeDuplicates values(3, 'Ben', 'Hoskins', 'Male', 70000);
 Insert into tblEmployeeDuplicates values(3, 'Ben', 'Hoskins', 'Male', 70000);
 Insert into tblEmployeeDuplicates values(3, 'Ben', 'Hoskins', 'Male', 70000);
+
+INSERT INTO tblProductSalesUnpivot VALUES ('David', 960, 520, 360);
+INSERT INTO tblProductSalesUnpivot VALUES ('John', 970, 540, 800);

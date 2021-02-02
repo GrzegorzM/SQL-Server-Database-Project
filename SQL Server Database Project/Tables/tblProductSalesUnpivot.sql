@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[tblProductSalesUnpivot]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1, 1),
+	[SalesAgent] NVARCHAR(50) NOT NULL,
+	[India] INT NOT NULL,
+	[USA] INT NOT NULL,
+	[UK] INT NOT NULL
+)
