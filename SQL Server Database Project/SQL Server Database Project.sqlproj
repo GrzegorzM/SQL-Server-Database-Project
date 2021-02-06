@@ -171,6 +171,7 @@
     <None Include="Scripts\LessonScripts\120_ReversePivot.sql" />
     <None Include="Scripts\LessonScripts\121_Choose.sql" />
     <None Include="Scripts\LessonScripts\123_TryParse.sql" />
+    <None Include="Scripts\LessonScripts\124_TryConvert.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
