@@ -175,6 +175,7 @@
     <None Include="Scripts\LessonScripts\125_EOMONTH.sql" />
     <None Include="Scripts\LessonScripts\126_DateFromParts.sql" />
     <None Include="Scripts\LessonScripts\127_DatetimeSmalldatetimeDifferences.sql" />
+    <None Include="Scripts\LessonScripts\128_DateTime2FromParts.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
