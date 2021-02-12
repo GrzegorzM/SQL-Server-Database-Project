@@ -20,9 +20,11 @@ BEGIN
     ORDER BY Id
     OFFSET (@PageNumber - 1) * @PageSize ROWS
     FETCH NEXT @PageSize ROWS ONLY
-END
+END;
 
--- Script to create table and populete it with data
+EXEC spGetRowsByPageNumberAndSize 10, 20;
+
+-- Script for creating a table and populate it with data.
 CREATE TABLE tblProducts3
 (
     Id INT PRIMARY KEY IDENTITY,

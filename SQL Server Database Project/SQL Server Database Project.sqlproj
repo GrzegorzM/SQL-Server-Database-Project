@@ -176,7 +176,7 @@
     <None Include="Scripts\LessonScripts\126_DateFromParts.sql" />
     <None Include="Scripts\LessonScripts\127_DatetimeSmalldatetimeDifferences.sql" />
     <None Include="Scripts\LessonScripts\128_DateTime2FromParts.sql" />
-    <None Include="Scripts\LessonScripts\130_OffsetFetch.sql" />
+    <None Include="Scripts\LessonScripts\130_OffsetFetchNext.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -214,6 +214,7 @@
     <Build Include="Tables\tblCountrySales.sql" />
     <Build Include="Tables\tblEmployeeDuplicates.sql" />
     <Build Include="Tables\tblProductSalesUnpivot.sql" />
+    <Build Include="Procedures\spGetRowsByPageNumberAndSize.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />
