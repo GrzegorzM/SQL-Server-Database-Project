@@ -178,6 +178,7 @@
     <None Include="Scripts\LessonScripts\128_DateTime2FromParts.sql" />
     <None Include="Scripts\LessonScripts\130_OffsetFetchNext.sql" />
     <None Include="Scripts\LessonScripts\131_Dependencies.sql" />
+    <None Include="Scripts\LessonScripts\129_DatetimeDatetime2Differences.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
