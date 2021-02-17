@@ -180,6 +180,7 @@
     <None Include="Scripts\LessonScripts\131_Dependencies.sql" />
     <None Include="Scripts\LessonScripts\129_DatetimeDatetime2Differences.sql" />
     <None Include="Scripts\LessonScripts\132_ReferencingEntities.sql" />
+    <None Include="Scripts\LessonScripts\133_spDepends.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
