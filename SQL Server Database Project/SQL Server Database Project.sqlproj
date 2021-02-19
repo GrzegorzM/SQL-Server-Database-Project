@@ -182,6 +182,7 @@
     <None Include="Scripts\LessonScripts\132_ReferencingEntities.sql" />
     <None Include="Scripts\LessonScripts\133_spDepends.sql" />
     <None Include="Scripts\LessonScripts\134_Sequence.sql" />
+    <None Include="Scripts\LessonScripts\135_SequenceIdentityDifferences.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
