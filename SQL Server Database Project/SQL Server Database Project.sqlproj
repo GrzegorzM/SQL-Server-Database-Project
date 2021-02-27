@@ -189,6 +189,7 @@
     <None Include="Scripts\LessonScripts\73_Transaction_NonRepeatableRead.sql" />
     <None Include="Scripts\LessonScripts\74_Transaction_PhantomReads.sql" />
     <None Include="Scripts\LessonScripts\75_Transaction_Snapshot.sql" />
+    <None Include="Scripts\LessonScripts\76_Transaction_ReadCommittedSnapshot.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
