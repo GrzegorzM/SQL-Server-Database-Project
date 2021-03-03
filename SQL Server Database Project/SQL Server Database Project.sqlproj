@@ -193,6 +193,7 @@
     <None Include="Scripts\LessonScripts\77_Transaction_SnapshotAndReadCommittedSnapshotDifferences.sql" />
     <None Include="Scripts\LessonScripts\78_Transaction_Deadlock.sql" />
     <None Include="Scripts\LessonScripts\79_Transaction_DeadlockVictim.sql" />
+    <None Include="Scripts\LessonScripts\80_Transaction_LoggingDeadlocks.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
