@@ -24,6 +24,11 @@ AS BEGIN
 	COMMIT TRANSACTION;
 END;
 
+-- Window 1
+EXECUTE spTransaction1;
+-- Window 2
+EXECUTE spTransaction2;
+
 SELECT * FROM tblPersonA;
 SELECT * FROM tblPersonB;
 
