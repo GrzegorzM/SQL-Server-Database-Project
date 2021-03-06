@@ -196,6 +196,8 @@
     <None Include="Scripts\LessonScripts\80_Transaction_LoggingDeadlocks.sql" />
     <None Include="Scripts\LessonScripts\81_Transaction_DeadlockAnalysis.sql" />
     <None Include="Scripts\LessonScripts\82_Transaction_SQLProfilerDeadlock.sql" />
+    <None Include="Scripts\LessonScripts\83_Transaction_DeadlockHandling.sql" />
+    <None Include="Procedures\spTransaction2.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
@@ -234,6 +236,7 @@
     <Build Include="Tables\tblEmployeeDuplicates.sql" />
     <Build Include="Tables\tblProductSalesUnpivot.sql" />
     <Build Include="Procedures\spGetRowsByPageNumberAndSize.sql" />
+    <Build Include="Procedures\spTransaction1.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Tables\SeedTablesScript.sql" />
