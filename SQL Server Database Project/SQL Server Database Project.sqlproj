@@ -198,6 +198,7 @@
     <None Include="Scripts\LessonScripts\82_Transaction_SQLProfilerDeadlock.sql" />
     <None Include="Scripts\LessonScripts\83_Transaction_DeadlockHandling.sql" />
     <None Include="Procedures\spTransaction2.sql" />
+    <None Include="Scripts\LessonScripts\86_Transaction_FindBlockingQueries.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\tblProduct.sql" />
